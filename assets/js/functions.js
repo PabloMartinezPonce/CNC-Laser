@@ -6,7 +6,7 @@ var categorias = [
     "Cuadros",
     "Dia del padre",
     "Dia de la madre",
-    "Dinasaurios en escala",
+    "Dinosaurios en escala",
     "Figuras corte con vinil",
     "Juguetes",
     "Letreros",
@@ -54,7 +54,7 @@ var categorias = [
       var productoHTML = `
         <div class="grid-item ${producto.categoria.replace(/ /g, "-")} wow zoomIn">
           <div class="img-place" data-src="${producto.imagen}" data-fancybox data-caption="<h5 class='fg-theme'>${producto.titulo}</h5> <p>${producto.descripcion}</p>">
-            <img src="${producto.imagen}" alt="">
+            <img src="${producto.imagen}" alt="" width="15%">
             <div class="img-caption">
               <h5 class="fg-theme">${producto.titulo}</h5>
               <p>${producto.descripcion}</p>

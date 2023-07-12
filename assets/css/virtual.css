@@ -1424,3 +1424,18 @@ a:hover, a:active {
 .theme-purple .theme-list li::before {
     border-color: #6f42c1;
 }
+
+.grid-item {
+    position: relative;
+    width: 35%;
+    padding-bottom: 35%; /* Establece el mismo valor que el ancho para mantener la relación de aspecto 1:1 */
+    float: left;
+  }
+  
+  .grid-item .img-place {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
