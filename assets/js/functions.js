@@ -1,4 +1,4 @@
-var baseURL = "https://kind-field-0923e6c10.3.azurestaticapps.net/assets/img/products/";
+var baseURL = "https://wonderful-coast-004ef5b10.3.azurestaticapps.net/assets/img/products/";
 
 var categorias = [
     "Agendas grabadas",
