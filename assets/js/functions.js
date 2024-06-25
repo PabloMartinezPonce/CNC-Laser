@@ -34,7 +34,7 @@ var categorias = [
     productos.push({
       categoria: categoria,
       imagen: `${baseURL}${categoria}/producto1.jpeg`,
-      titulo: `Producto 1 de ${categoria}`,
+      titulo: `Agendas grabadas ${categoria}`,
       descripcion: `Descripción del Producto 1 de ${categoria}`
     });
   
